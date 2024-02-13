@@ -14,7 +14,7 @@ class TagCreatorController:
         formatted_response = self.__format_response(path_from_tag)
         return formatted_response
 
-    def __create_tag( # os 2 underlines (__) indica que é um método privado
+    def __create_tag( # os 2 underlines (__) indicam que é um método privado
             self,
             product_code: str
     ):
@@ -22,7 +22,7 @@ class TagCreatorController:
         path_from_tag = barcode_handler.create_barcode(product_code)
         return path_from_tag
 
-    def __format_response(
+    def __format_response( # os 2 underlines (__) indicam que é um método privado
             self,
             path_from_tag: str
     ) -> Dict:

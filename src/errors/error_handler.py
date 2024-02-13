@@ -1,5 +1,5 @@
 from src.views.http_types.http_response import HttpResponse
-from src.errors.error_types.http_unprocessable_entity import HttpUnprocessableEntityError
+from .error_types.http_unprocessable_entity import HttpUnprocessableEntityError
 
 def handle_errors(error: Exception) -> HttpResponse:
     if isinstance(error, HttpUnprocessableEntityError):
