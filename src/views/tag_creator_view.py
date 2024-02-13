@@ -14,6 +14,7 @@ class TagCreatorView:
         body = http_request.body
         product_code = body["product_code"]
 
+
         # lógica de regra de negócio
         formatted_response = tag_creator_controller.create(product_code)
 
