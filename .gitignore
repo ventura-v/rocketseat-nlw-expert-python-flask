@@ -1,5 +1,6 @@
 **/__pycache__
-.venv
 .pytest_cache
-readme.txt
+.venv
+.vscode
 _temp.txt
+readme.txt
